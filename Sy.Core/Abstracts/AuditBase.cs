@@ -11,10 +11,12 @@ namespace Sy.Core.Abstracts
     {
 
         [StringLength(50)]
-        public int CreatedUser { get; set; }
+        public string CreatedUser { get; set; }
+
         public DateTime CreateDate { get; set; } = DateTime.Now;
+
         [StringLength(50)]
-        public int UpdateUser { get; set; }
+        public string UpdateUser { get; set; }
         public DateTime? UpdatedDate { get; set; }
 
     }
