@@ -9,7 +9,7 @@ namespace Sy.DataAccess.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(Sy.DataAccess.StockDbContext context)
