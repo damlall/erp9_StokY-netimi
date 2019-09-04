@@ -39,7 +39,7 @@
             // 
             this.txtSıfre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSıfre.Location = new System.Drawing.Point(176, 80);
-            this.txtSıfre.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
+            this.txtSıfre.Margin = new System.Windows.Forms.Padding(12);
             this.txtSıfre.Name = "txtSıfre";
             this.txtSıfre.PasswordChar = '*';
             this.txtSıfre.Size = new System.Drawing.Size(197, 30);
@@ -60,7 +60,7 @@
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtEmail.Location = new System.Drawing.Point(176, 24);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(12);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(197, 30);
             this.txtEmail.TabIndex = 5;
@@ -84,6 +84,7 @@
             this.btnGiris.TabIndex = 6;
             this.btnGiris.Text = "Giriş";
             this.btnGiris.UseVisualStyleBackColor = true;
+            this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
             // 
             // LoginForm
             // 
@@ -96,7 +97,7 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label3);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "LoginForm";
             this.Text = "LoginForm";
             this.ResumeLayout(false);

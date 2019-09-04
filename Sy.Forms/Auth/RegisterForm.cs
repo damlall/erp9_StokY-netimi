@@ -1,17 +1,10 @@
 ﻿using Sy.Business.Repository;
 using Sy.Core.Entities;
-using Sy.Core.Abstracts;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Sy.Core.ViewModels;
 using Sy.Core.Enums;
+using Sy.Core.ViewModels;
+using System;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace Sy.Forms.Auth
 {
